@@ -1,0 +1,148 @@
+@xt-dk-blue: #080030;
+@dk-blue: #314CB6;
+@blue: #0A81D1;
+@lt-blue: rgba(10, 129, 209, 0.16);
+@dk-purple: #6461A0;
+@purple: #B68CB8;
+@lt-purple: rgba(239, 189, 235, 0.48); 
+
+@poppins-bold: 'Poppins-Bold', sans-serif;
+@berkshire: 'Berkshire Swash', cursive;
+
+@lg-font: 50px;
+@sm-font: 15px;
+@md-font: 25px;
+
+
+nav li a{
+	color: @dk-blue;
+	text-decoration: none;
+	font-family: @poppins-bold;
+}
+
+nav li a:hover{
+    color: @blue;
+}
+
+header h1{
+	font-size: @lg-font;
+	font-family: @berkshire;
+	color: @dk-purple;
+}
+
+header h4{
+	margin-top: 30px;
+	font-family: @poppins-bold;
+}
+
+#academic{
+	margin-top: 50px;
+	font-family: @poppins-bold;
+}
+
+#more_lossparrow{
+	display: none;
+}
+
+#more_intwiff{
+	display: none;
+}
+
+#intern button{
+	border-style: none;
+	background-color: @lt-blue;
+	color: grey;
+	font-size: @sm-font;
+}
+
+#intern p{
+	color: grey;
+}
+
+#intern b{
+	font-size: @md-font;
+}
+
+#work_exp{
+    background-color: @lt-blue;
+}
+
+#work_exp h3{
+	margin: 50px 0 30px 0;
+	font-family: @berkshire;
+	font-size: @lg-font;
+	color: @xt-dk-blue;
+}
+
+#skill{
+	font-size: @md-font;
+	font-family: @poppins-bold;
+}
+
+.skill-row{
+	padding: 20px;
+	font-family: @poppins-bold;
+}
+
+.project h1{
+	font-size: @lg-font;
+	font-family:@berkshire;
+	color: @dk-purple;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+
+.card-block{
+	font-family: @poppins-bold;
+	color: white;
+	height: 250px;
+    border: none;
+	background-position: center;
+	background-size: cover;
+	border-radius: 24px;
+	font-size: @md-font;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+@media screen and (max-width: 600px) {
+	.card-block{
+		height: 150px;
+		font-size: 10px;
+	}
+}
+
+.project a:hover{
+	text-decoration: none;
+}
+
+.card-1{
+    background-image: url("img/project-1.png")
+}
+
+.card-2{
+    background-image: url("img/project-2.png")
+}
+
+.card-3{
+    background-image: url("img/project-3.png")
+}
+
+.card-4{
+    background-image: url("img/project-4.png")
+}
+
+.card-5{
+    background-image: url("img/project-5.png")
+}
+
+#resume a{
+	color: @dk-blue;
+	text-decoration: none;
+	font-family: @poppins-bold;
+	margin: 50px;
+	font-size: @sm-font;
+}

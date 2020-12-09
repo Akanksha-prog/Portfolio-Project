@@ -1,0 +1,108 @@
+nav li a {
+  color: #314CB6;
+  text-decoration: none;
+  font-family: 'Poppins-Bold', sans-serif;
+}
+nav li a:hover {
+  color: #0A81D1;
+}
+header h1 {
+  font-size: 50px;
+  font-family: 'Berkshire Swash', cursive;
+  color: #6461A0;
+}
+header h4 {
+  margin-top: 30px;
+  font-family: 'Poppins-Bold', sans-serif;
+}
+#academic {
+  margin-top: 50px;
+  font-family: 'Poppins-Bold', sans-serif;
+}
+#more_lossparrow {
+  display: none;
+}
+#more_intwiff {
+  display: none;
+}
+#intern button {
+  border-style: none;
+  background-color: rgba(10, 129, 209, 0.16);
+  color: grey;
+  font-size: 15px;
+}
+#intern p {
+  color: grey;
+}
+#intern b {
+  font-size: 25px;
+}
+#work_exp {
+  background-color: rgba(10, 129, 209, 0.16);
+}
+#work_exp h3 {
+  margin: 50px 0 30px 0;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 50px;
+  color: #080030;
+}
+#skill {
+  font-size: 25px;
+  font-family: 'Poppins-Bold', sans-serif;
+}
+.skill-row {
+  padding: 20px;
+  font-family: 'Poppins-Bold', sans-serif;
+}
+.project h1 {
+  font-size: 50px;
+  font-family: 'Berkshire Swash', cursive;
+  color: #6461A0;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.scrolling-wrapper {
+  overflow-x: auto;
+}
+.card-block {
+  font-family: 'Poppins-Bold', sans-serif;
+  color: white;
+  height: 250px;
+  border: none;
+  background-position: center;
+  background-size: cover;
+  border-radius: 24px;
+  font-size: 25px;
+  text-shadow: 2px 2px 5px #000000;
+}
+@media screen and (max-width: 600px) {
+  .card-block {
+    height: 150px;
+    font-size: 10px;
+  }
+}
+.project a:hover {
+  text-decoration: none;
+}
+.card-1 {
+  background-image: url("img/project-1.png");
+}
+.card-2 {
+  background-image: url("img/project-2.png");
+}
+.card-3 {
+  background-image: url("img/project-3.png");
+}
+.card-4 {
+  background-image: url("img/project-4.png");
+}
+.card-5 {
+  background-image: url("img/project-5.png");
+}
+#resume a {
+  color: #314CB6;
+  text-decoration: none;
+  font-family: 'Poppins-Bold', sans-serif;
+  margin: 50px;
+  font-size: 15px;
+}

@@ -1,76 +1,220 @@
-<!--webpage structure-->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Ristorante Con Fusion</title>
+    <title>My Portfolio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
      <!--build:css css/main.css-->
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles_index.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <!--endbuild-->
     <!--fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
 </head>
 
 <body>
-	<!--navigation bar-->
+
+
+
+<!--navigation bar-->
     <nav class="navbar navbar-expand-md">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active"><a class="nav-link" href="#">About Me</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">My Work</a></li>
+            <li class="nav-item"><a class="nav-link" href="./work.html">My Work</a></li>
         </ul>
     </nav>
- <!--Welcome message-->
+
+
+
+<!--Welcome message-->
 	<header>
-        <div class="container">
             <div class="row row-header justify-content-center">
             	<h1>Howdy!</h1>
             </div>
             <div class="row row-content justify-content-center">
-            	<div class="col-12 col-sm-3 align-self-center">
-            	<img src="E:\Frontend course\portfolio project\img/dp.jpg" class="img-fluid">
+            	<div class="col-8 col-sm-3 align-self-center">
+            	    <img src="img\dp.jpg" class="img-fluid" alt="profile photo">
                 </div>
             </div>
             <div id="intro">
                 <div id="name" class="row row-content justify-content-center">
-            	<p>I am AKANKSHA SAINI </p>
+            	    <p><strong>I am AKANKSHA SAINI </strong></p>
                 </div>
                 <div id="branch" class="row row-content justify-content-center">
-            	<p>Electronics and Communication Engineering Student.</p>
+            	    <p>Electronics and Communication Engineering Student.</p>
                 </div>
                 <div id="field" class="row row-content justify-content-center">
-            	<p><strong>Frontend Web Developer | Web Designer | UI/UX Designer</strong></p>
+            	    <p><strong>Frontend Web Developer | Web Designer | UI/UX Designer</strong></p>
+                </div>
+            </div>
+    </header>
+
+
+
+<!--diversion-->
+        <div class="row row-header justify-content-center" id="diversion">
+            	<h1>My Diversions</h1>
+        </div> 
+        <div class="row row-content">
+            <div class="col-12">
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active" id="graphic">
+                            <div class="carousel-caption d-sm-block">
+                                <h2>GRAPHIC DESIGN</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item" id="illustration">
+                            <div class="carousel-caption d-sm-block">
+                                <h2>ILLUSTRATION</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item" id="photography">
+                            <div class="carousel-caption d-sm-block">
+                                <h2>PHOTOGRAPHY</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item" id="sketching">
+                            <div class="carousel-caption d-sm-block">
+                                <h2>SKETCHING</h2>
+                            </div>
+                        </div>
+                        
+                        <ol class="carousel-indicators">
+                            <li data-target="mycarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="mycarousel" data-slide-to="1"></li>
+                            <li data-target="mycarousel" data-slide-to="2"></li>
+                            <li data-target="mycarousel" data-slide-to="3"></li>
+                        </ol>
+                        <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                        <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+                    </div>
                 </div>
             </div>
         </div>
-    </header>
 
-    <div class="container" id="diversion">
-    	<div class="row row-header justify-content-center">
-    		<h1>My Diversions</h1>
-    	</div>
 
-        <div class="row row-content">
+
+<!--quote-->
+    <div class="container" id="quote">
+    	<div class="row row-content justify-content-center">
+    		<p>"My Work leads me to progress, not to perfection."</p>
         </div>
     </div>
 
+
+
+
+<!--link to work-->
+    <div class="container" id="towork">
+    	<div class="row row-content justify-content-center">
+    		<a href="./work.html">Go To My Work <i class="fa fa-arrow-right"></i></a>
+    	</div>
+    </div>
+
+
+
+
+<!--cards-->
+    <div class="container">
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-8">
+                <div class="card">
+                    <h3 class="card-header">Leave A Message</h3>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group row">
+                                <label for="firstname" class="col-md-2 col-form-label">Name</label>
+                                <div class="col-md-10">
+                                <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Your Name">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                                <div class="col-md-10">
+                                <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Your Email">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="message" class="col-md-2 col-form-label">Message</label>
+                                <div class="col-md-10">
+                                <input type="text" class="form-control" id="message" name="message" placeholder="Type your message here">
+                                </div>
+                            </div>
+                            <div class="form-group row justify-content-center">
+                                <button type="submit" class="btn">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+<!--contact-->
+            <div id="contact" class="col-12 col-sm-4">
+                <div class="card">
+                    <h3 class="card-header">Contact Me</h3>
+                    <div class="card-body">
+                    	<div class="row row-content justify-content-center">
+                            <div class="btn-group" role="group">
+                    	        <a role="button" class="btn" href="mailto:akankshasaini790@gmail.com"><i class="fa fa-envelope"></i> Mail</a>
+                                <a role="button" class="btn" href="tel:+917017804432"><i class="fa fa-phone"></i> Call</a>
+                            </div>
+                        </div>
+                        <div class="row row-content justify-content-center">
+                            <a target="_blank" href="https://www.linkedin.com/in/akanksha-saini-6660731a5/"><i class="icon fa fa-linkedin fa-2x"></i></a>
+                            <a target="_blank" href="https://github.com/Akanksha-prog"><i class="icon fa fa-github fa-2x"></i></a>
+                            <a target="_blank" href="https://www.behance.net/akankshasaini1"><i class="icon fa fa-behance fa-2x"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/simple_aslovegood/?hl=en"><i class="icon fa fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!--footer-->
         <footer>
         <div class="container footer">
         	<div class="row"> 
         	</div>
         </div>
     </footer>
+
+
+
 <!--build:js js/main.js-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+            $(document).ready(function(){
+            $("#carouselButton").click(function(){
+                if ($("#carouselButton").children("span").hasClass('fa-pause')) {
+                    $("#mycarousel").carousel('pause');
+                    $("#carouselButton").children("span").removeClass('fa-pause');
+                    $("#carouselButton").children("span").addClass('fa-play');
+                }
+                else if ($("#carouselButton").children("span").hasClass('fa-play')){
+                    $("#mycarousel").carousel('cycle');
+                    $("#carouselButton").children("span").removeClass('fa-play');
+                    $("#carouselButton").children("span").addClass('fa-pause');                    
+                }
+            });
+            
+        });
+
+    </script>
 <!--endbuild-->
 </body>
-
 </html>

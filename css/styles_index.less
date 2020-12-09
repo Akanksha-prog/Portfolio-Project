@@ -1,0 +1,158 @@
+@xt-dk-blue: #080030;
+@dk-blue: #314CB6;
+@blue: #0A81D1;
+@lt-blue: rgba(10, 129, 209, 0.16);
+@dk-purple: #6461A0;
+@purple: #B68CB8;
+@lt-purple: rgba(239, 189, 235, 0.48); 
+
+@poppins-bold: 'Poppins-Bold', sans-serif;
+@berkshire: 'Berkshire Swash', cursive;
+
+@lg-font: 50px;
+@sm-font: 15px;
+@md-font: 25px;
+
+.button-mixin {
+	background-color: @dk-blue;
+	color: white;
+	padding-right: 30px;
+	padding-left: 30px;
+	font-family: @poppins-bold;
+}
+
+nav li a{
+	color: @dk-blue;
+	text-decoration: none;
+	font-family: @poppins-bold;
+}
+
+nav li a:hover{
+    color: @blue;
+}
+
+header{
+	font-size: @lg-font;
+	font-family: @berkshire;
+	color: @dk-purple;
+}
+
+header img {
+	border-radius: 50%;
+	margin-top: 20px;
+	box-shadow: 0px 2px 5px #000000;
+}
+
+#name{
+	font-size: @md-font;
+	margin-top: 10px;
+}
+
+#branch {
+	font-size: @sm-font;
+}
+
+#field{
+	font-size: @md-font;
+}
+
+#intro{
+	background-color: @lt-purple; 
+    width: 100%;
+    height: 200px;
+    padding-top: 30px;
+    font-family: @poppins-bold;
+    color: black;
+}
+
+#diversion h1{
+	font-size: @lg-font;
+	font-family: @berkshire;
+	color: @dk-purple;
+	margin: 40px;
+}
+
+.carousel-item{
+	height: 700px;
+	background-position: center;
+	background-size: cover;
+}
+
+#graphic{
+	background-image: url("img/graphic.jpg");
+}
+
+#illustration{
+	background-image: url("img/illustration.jpg");
+}
+
+#photography{
+	background-image: url("img/photography.jpg");
+}
+
+#sketching{
+	background-image: url("img/sketching.jpg");
+}
+
+.carousel-caption{
+	text-shadow: 2px 2px 5px #000000;
+	font-family: @poppins-bold;
+}
+
+#quote p{
+	font-size: @md-font;
+	font-family: @berkshire;
+	margin: 50px;
+}
+
+#towork a{
+	color: @dk-blue;
+	text-decoration: none;
+	font-family: @poppins-bold;
+}
+
+.card{
+	margin: 50px auto 50px auto;
+	background-color: @lt-blue !important;
+	border-style: none;
+	box-shadow: 0px 2px 8px #6EF698;
+	color: @dk-blue;
+	font-family: @poppins-bold;
+}
+
+.card .card-header {
+    background-color: @lt-blue !important;
+    border-style: none;
+    color: @dk-blue !important;
+}
+
+.card form input{
+	border-style: none;
+	background-color: @lt-blue;
+	border-bottom: 1px solid;
+}
+
+.card .btn{
+	.button-mixin();
+}
+
+#contact .btn{
+	.button-mixin();
+	margin: 5px;
+}
+
+.icon{
+	margin: 20px 10px 20px 10px;
+	color: @dk-blue;
+
+}
+
+@media screen and (max-width: 600px) {
+  #field {
+    font-size: 15px;
+  }
+
+   #branch {
+    font-size: 13px;
+  }
+}
