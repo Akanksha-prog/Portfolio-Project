@@ -51,6 +51,7 @@ header h4 {
   font-family: 'Poppins-Bold', sans-serif;
 }
 .skill-row {
+  font-size: 15px;
   padding: 20px;
   font-family: 'Poppins-Bold', sans-serif;
 }
@@ -79,6 +80,9 @@ header h4 {
   .card-block {
     height: 150px;
     font-size: 10px;
+  }
+  #skill {
+    font-size: 15px;
   }
 }
 .project a:hover {
